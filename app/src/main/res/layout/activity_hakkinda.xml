@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF700A"
+    tools:context=".HakkindaActivity">
+
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bakicon"
+            android:id="@+id/backHk"></ImageView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAKKINDA"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        ></TextView>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"></ImageView>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soyut sınıflar, tüm alt sınıfları tarafından paylaşılacak metodların tanımlarını içeren sınıflardır. Soyut sınıflar içeriği belirlenmemiş sadece etiketi(C’deki prototip belirtimi gibi) belli bir ya da daha fazla soyut metod içerirler. Bu metodların içeriklerine alt sınıflarda bindirme (override) yapılarak içerik kazandırılır. Bir soyut sınıftan türeyen tüm alt sınıflarda bu soyut metodlara bindirme yapılmalıdır. Bir soyut sınıf tamamlanmamış olduğu için nesne haline getirilemez. Mutlaka “extends” anahtar sözcüğü ile yeni sınıflara miras bırakarak kullanılmalıdır. Kısaca bir sınıf isminden önce “abstract” kelimesi vars o sınıf soyuttur ve ve en az bir adet “abstract” tanımlı metod içermelidir. "
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:gravity="center"></TextView>
+
+
+</LinearLayout>

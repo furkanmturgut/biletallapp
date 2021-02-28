@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "948146959680",
+    "firebase_url": "https://otobusbiletall-default-rtdb.firebaseio.com",
+    "project_id": "otobusbiletall",
+    "storage_bucket": "otobusbiletall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948146959680:android:b062307aecbb89c19e76a5",
+        "android_client_info": {
+          "package_name": "com.kunai.otobusbiletall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948146959680-vip088j6kn2atrmso623rdt4r7qgpcai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kunai.otobusbiletall",
+            "certificate_hash": "e43aad125a736403f46917451241249fbafec4e4"
+          }
+        },
+        {
+          "client_id": "948146959680-95e346amvckrube298hvlf0s398ujmsv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6a4I6RhtiKamyytagAi39vgLkXTvXPLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948146959680-95e346amvckrube298hvlf0s398ujmsv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

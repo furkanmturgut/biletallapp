@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GirisYapActivity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:src="@drawable/temamiz"
+        android:scaleType="centerCrop"
+        ></ImageView>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image"
+        android:layout_gravity="center"></ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="50dp"
+        android:layout_width="340dp"
+        android:layout_height="250dp"
+        android:id="@+id/cardViewGiris"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/editTextMailGiris"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableLeft="@drawable/email"
+                android:paddingTop="5dp"
+                android:padding="9dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="12dp"
+                android:hint="Mail Giriniz*"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"></EditText>
+            <EditText
+                android:id="@+id/editTextPasswordGiris"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edittextbackground"
+                android:drawableLeft="@drawable/icon"
+                android:paddingTop="5dp"
+                android:padding="6dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="12dp"
+                android:hint="Şifre Belirleyiniz*"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:inputType="textPassword"></EditText>
+
+            <Button
+                android:id="@+id/girisYap"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btnsplash"
+                android:drawableStart="@drawable/loginicon"
+                android:onClick="userLogin"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:text="giriş yap"></Button>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:text="Hesabın yok mu?"
+            android:layout_gravity="center"></TextView>
+
+        <TextView
+            android:id="@+id/textUyeOl"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text=" Üye Ol"
+            android:textColor="#FF700A"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

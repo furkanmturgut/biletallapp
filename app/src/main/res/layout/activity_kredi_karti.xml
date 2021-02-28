@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KrediKartiActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ödemeyi Tamamla"
+        android:textColor="#FF700A"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"></TextView>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/anakart"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"></ImageView>
+
+    <EditText
+        android:id="@+id/kartNumarasi"
+        android:maxLength="16"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/cartnumber"
+        android:padding="10dp"
+        android:hint="Kart Numarası Giriniz*"
+        android:drawablePadding="12dp"
+        android:paddingStart="10dp"
+        android:inputType="number"></EditText>
+
+    <EditText
+        android:id="@+id/kartTarihi"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/datee"
+        android:padding="10dp"
+        android:hint="Kart Tarihi Giriniz*"
+        android:drawablePadding="12dp"
+        android:paddingStart="10dp"
+        android:inputType="date"></EditText>
+
+    <EditText
+        android:id="@+id/cvcNumarasi"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittextbackground"
+        android:drawableLeft="@drawable/cvc"
+        android:padding="10dp"
+        android:hint="CVC Giriniz*"
+        android:drawablePadding="12dp"
+        android:paddingStart="10dp"
+        android:inputType="number"
+        android:maxLength="3"></EditText>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btnsplash"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="DEVAM"
+        android:id="@+id/kartDevam"></Button>
+
+
+
+</LinearLayout>

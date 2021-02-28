@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/photom"
+    tools:context=".BiletDetayActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="İletişim Bilgileri"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"></TextView>
+
+            <EditText
+                android:id="@+id/zorunluEmail"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/email"
+                android:paddingTop="5dp"
+                android:padding="9dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="12dp"
+                android:hint="Email Giriniz*"
+                android:inputType="textEmailAddress"></EditText>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Telefon Giriniz"></TextView>
+
+            <EditText
+                android:id="@+id/zorunluTelefon"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:padding="9dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="12dp"
+                android:hint="5xx-3xx-3x-4x*"
+                android:inputType="phone"
+                android:maxLength="10"></EditText>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Yaşınızı Giriniz"></TextView>
+            <EditText
+                android:id="@+id/zorunluYas"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:padding="9dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="12dp"
+                android:hint="Yaş Giriniz*"
+                android:inputType="number"
+                android:maxLength="2"></EditText>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="HES Kodu Giriniz"></TextView>
+            <EditText
+                android:id="@+id/zorunluHES"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittextbackground"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:padding="9dp"
+                android:paddingStart="15dp"
+                android:drawablePadding="12dp"
+                android:hint="Hes Kodunuzu Giriniz*"
+                android:inputType="text"></EditText>
+
+
+            <Button
+                android:id="@+id/iletisimBtn"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btnsplash"
+                android:text="Devam et"></Button>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
